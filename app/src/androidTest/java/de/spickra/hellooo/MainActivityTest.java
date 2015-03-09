@@ -13,12 +13,12 @@ public class MainActivityTest {
     public void testOnCreate() throws Exception {
         // Given
         MainActivity mainActivity = new MainActivity();
-        assertNull(mainActivity.mainButton);
+        assertNull(mainActivity.okButton);
 
         // When
         mainActivity.onCreate(Bundle.EMPTY);
 
         // Then
-        assertNotNull(mainActivity.mainButton);
+        assertNotNull(mainActivity.okButton);
     }
 }
