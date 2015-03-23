@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Hellooo</string>
-
-    <string name="button">OK</string>
-    <string name="hint">Enter a name..</string>
+    <string name="app_name">Articles@Otto</string>
+    <string name="button_text">Find a product..</string>
 </resources>
